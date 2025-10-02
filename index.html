@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalel Apps - Amharic Bible Application | Mobile Developer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional mobile developer specializing in Amharic Bible applications. Download the comprehensive Amharic Bible app with audio, search, and study features on Google Play Store.">
+    <meta name="keywords" content="Amharic Bible, mobile app developer, Bible app, Ethiopian Bible, mobile development, Kalel Apps, Android app">
+    <meta name="author" content="Kalel Apps">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kalelapps.com/">
+    <meta property="og:title" content="Kalel Apps - Amharic Bible Application | Mobile Developer">
+    <meta property="og:description" content="Professional mobile developer specializing in Amharic Bible applications. Download the comprehensive Amharic Bible app with audio, search, and study features.">
+    <meta property="og:image" content="https://kalelapps.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kalelapps.com/">
+    <meta property="twitter:title" content="Kalel Apps - Amharic Bible Application | Mobile Developer">
+    <meta property="twitter:description" content="Professional mobile developer specializing in Amharic Bible applications. Download the comprehensive Amharic Bible app with audio, search, and study features.">
+    <meta property="twitter:image" content="https://kalelapps.com/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Google Fonts with preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Icon Library (Feather Icons) -->
+    <script src="https://unpkg.com/feather-icons" defer></script>
+    
+    <!-- Animate on Scroll (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+</head>
+<body class="loading">
+
+<!-- Skip to content link for accessibility -->
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ==================== HEADER ==================== -->
+<header id="header">
+    <div class="container nav-wrapper">
+        <div class="logo">Kalel Apps</div>
+        <nav class="nav-menu" id="navMenu">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#screenshots">Screenshots</a>
+            <a href="#video">Demo</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-controls">
+            <button class="theme-toggle" id="themeToggle" title="Toggle Dark/Light Mode">
+                <i data-feather="sun" class="sun-icon"></i>
+                <i data-feather="moon" class="moon-icon"></i>
+            </button>
+        <div class="mobile-toggle" id="mobileToggle"><i data-feather="menu"></i></div>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+    <!-- ==================== HERO ==================== -->
+    <section id="hero">
+      <div class="container hero-grid">     <!-- NEW wrapper to keep text + pic side-by-side -->
+       <!-- ②  HERO TEXT (your original content) -->
+          <div class="hero-content" data-aos="fade-right">
+              <p class="hero-greeting">Welcome, I am</p>
+              <h1 class="hero-name">A Mobile Developer</h1>
+              <p class="hero-typed" id="typed"></p>
+              <p class="hero-desc">
+                  I build intuitive and meaningful mobile applications. My latest project is a comprehensive Amharic Bible app, designed for easy reading, study, and listening.
+              </p>
+              <div class="hero-cta">
+                  <a href="https://play.google.com/store/apps/details?id=com.kalel.kalelapps&hl=en"
+                     target="_blank" class="btn">
+                     <i data-feather="download-cloud"></i> Get on Google Play
+                  </a>
+                  <a href="#video" class="btn"
+                     style="background:transparent; border:2px solid var(--clr-primary);">
+                     <i data-feather="play-circle"></i> Watch Demo
+                  </a>
+              </div>
+          </div>
+    
+      </div> <!-- /.hero-grid -->
+    
+      <!-- keep your custom cursor -->
+      <div class="cursor-trail" id="cursorTrail"></div>
+    </section>
+
+    <!-- ==================== ABOUT THE DEVELOPER ==================== -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">About The Developer</h2>
+            <div class="about-grid" data-aos="fade-up">
+                <div class="about-img">
+                    <!-- Replace with your own professional photo -->
+                    <img src="profile.jpg" alt="Developer of Amharic Bible App" style="object-fit: cover; aspect-ratio: 1/1; object-position: 80% 30%;">
+                </div>
+                <div class="about-info">
+                    <h3>Crafting Digital Tools for Faith and Community</h3>
+                    <p>
+                        As a passionate developer, my mission is to create applications that are not only functional but also enrich people's lives. The <strong>Amharic Bible Application</strong> is a project born from a desire to make the scriptures more accessible and engaging for the Amharic-speaking community worldwide.
+                    </p>
+                    <p class="mt-2" style="margin-top: 1rem;">
+                        With a strong focus on user experience and performance, I specialize in building native mobile apps that are fast, reliable, and easy to use. Let's connect and build something great together.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== APP FEATURES ==================== -->
+    <section id="features">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">App Features</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon"><i data-feather="book-open" style="width:48px; height:48px;"></i></div>
+                    <h3>Daily Verses & Reading Plans</h3>
+                    <p>Start your day with inspiring Amharic Bible verses and follow one-year reading plans including chronological and canonical options.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon"><i data-feather="search" style="width:48px; height:48px;"></i></div>
+                    <h3>Advanced Search</h3>
+                    <p>Find any verse instantly with multi-word query support, translation switching, and offline search capabilities.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon"><i data-feather="edit-3" style="width:48px; height:48px;"></i></div>
+                    <h3>Study Tools & Notes</h3>
+                    <p>Highlight verses with different colors, take personal notes with integrated Amharic keyboard, and create verse wallpapers.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon"><i data-feather="link" style="width:48px; height:48px;"></i></div>
+                    <h3>Cross-References & Lexicon</h3>
+                    <p>Explore enhanced cross-references and Strong's lexicon for deeper Bible study and theological understanding.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon"><i data-feather="share-2" style="width:48px; height:48px;"></i></div>
+                    <h3>Share God's Word</h3>
+                    <p>Share verses via SMS, Facebook, WhatsApp, Messenger, and more. Create beautiful verse images for inspiration.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon"><i data-feather="wifi-off" style="width:48px; height:48px;"></i></div>
+                    <h3>100% Offline Access</h3>
+                    <p>All Old and New Testament books available offline. No internet required for reading, searching, or studying.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== APP SCREENSHOTS ==================== -->
+    <section id="screenshots">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">See It In Action</h2>
+            <p class="screenshots-intro" data-aos="fade-up">Experience the beautiful and intuitive interface of the Amharic Bible app, designed specifically for Ethiopian Christians.</p>
+            
+            <!-- Google Play Store Style Screenshot Carousel -->
+            <div class="screenshot-carousel" data-aos="fade-up">
+                <div class="screenshot-track">
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1.jpg" alt="Amharic Bible App - Main Interface" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1 copy.jpg" alt="Amharic Bible App - Book Selection" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1 copy 2.jpg" alt="Amharic Bible App - Reading Interface" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1 copy 3.jpg" alt="Amharic Bible App - Search Features" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1 copy 4.jpg" alt="Amharic Bible App - Study Tools" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1 copy 5.jpg" alt="Amharic Bible App - Settings" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1 copy 6.jpg" alt="Amharic Bible App - Daily Verses" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="screenshot-slide">
+                        <div class="phone-mockup">
+                            <img src="Play StoreArtboard 1 copy 7.jpg" alt="Amharic Bible App - Sharing" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation Dots -->
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                </div>
+                
+                <!-- Navigation Arrows -->
+                <button class="carousel-prev" onclick="changeSlide(-1)">❮</button>
+                <button class="carousel-next" onclick="changeSlide(1)">❯</button>
+            </div>
+            
+            <!-- Feature Highlights -->
+            <div class="feature-highlights" data-aos="fade-up" data-aos-delay="200">
+                <div class="highlight-item">
+                    <div class="highlight-icon">📖</div>
+                    <h4>Easy Reading</h4>
+                    <p>Clean interface with beautiful typography</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">🔍</div>
+                    <h4>Smart Search</h4>
+                    <p>Find verses instantly with advanced search</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">📝</div>
+                    <h4>Study Tools</h4>
+                    <p>Highlight, note, and cross-reference</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">📱</div>
+                    <h4>Share Verses</h4>
+                    <p>Share God's Word on social media</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VIDEO DEMO ==================== -->
+    <section id="video">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">Watch The App In Action</h2>
+            <div class="video-wrapper" data-aos="fade-up">
+                <iframe 
+                    src="https://www.youtube.com/embed/Yiw3OrhT9DY" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== APP STATS ==================== -->
+    <section id="stats">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">App Success</h2>
+            <div class="stats-grid" data-aos="fade-up">
+                <div class="stat-item">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Downloads</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5.0★</div>
+                    <div class="stat-label">Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1.35K</div>
+                    <div class="stat-label">Reviews</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Offline</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== USER REVIEWS ==================== -->
+    <section id="reviews">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">What Users Say</h2>
+            <div class="reviews-grid" data-aos="fade-up">
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Very good app, and potentially can evolve to be the best. I loved the simple interface. Would love to see it have the 81 books Amharic Bible version, Strong's concordance, highlight part of a verse, a study bible version, and a bible dictionary. Installed Nyala font and works flawless with it. Still it is very nice the way it is now. Thanks and may our Lord bless you for this free gift."</p>
+                    <div class="review-author">
+                        <strong>Fekade Ayenachew</strong>
+                        <span>September 7, 2025</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"I do like the app. It's simple and easy to use. This is my second best app that I found for reading an Amharic Holy Bible with the option of English version. I can recommend you to try it! For the developer, can you put the option on it to make full screen. This means hide the 'Status Bar' that contains battery level, time, signal bar and etc. Thank you for your efforts!"</p>
+                    <div class="review-author">
+                        <strong>Israel Asnake</strong>
+                        <span>September 2, 2025</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"It is great so far and I am enjoying it so much. But it has some shortcomings when it comes to listing out some relatable verses. I would suggest if the developer refers more theological books and other similar apps that have good references and puts more relatable verses that make a significant development to the app. God bless you"</p>
+                    <div class="review-author">
+                        <strong>Burhan Dinni</strong>
+                        <span>September 12, 2025</span>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://play.google.com/store/apps/details?id=com.kalel.kalelapps&hl=en" target="_blank" class="btn">
+                    <i data-feather="star"></i> Read More Reviews on Google Play
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact">
+        <div class="container contact-grid">
+            <h2 class="section-title" data-aos="fade-down">Get In Touch</h2>
+            <p data-aos="fade-up">
+                Have a project idea, a question, or just want to connect? I'd love to hear from you. 
+                Feel free to reach out via email or connect with me on social media.
+            </p>
+            <div data-aos="fade-up" data-aos-delay="100">
+                 <a href="mailto:kalelapps@gmail.com" class="btn">
+                    <i data-feather="mail"></i> Email Me
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+    <div class="container">
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@kalelbethel" target="_blank" title="TikTok">
+                <i data-feather="video"></i>
+            </a>
+            <a href="https://web.facebook.com/kkalelll" target="_blank" title="Facebook">
+                <i data-feather="facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/kkal_el/" target="_blank" title="Instagram">
+                <i data-feather="instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCIPKgAP5TAmtDM7L3lzMafQ" target="_blank" title="YouTube">
+                <i data-feather="youtube"></i>
+            </a>
+        </div>
+        <p>© 2025 Kalel Apps. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- External JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
