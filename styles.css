@@ -120,6 +120,149 @@ button:hover, .btn:hover {
 }
 
 /* ------------------------------------------------------------------
+   Store Buttons (Google Play & App Store)
+------------------------------------------------------------------ */
+.store-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    min-width: 180px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.store-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.store-button-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.store-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.store-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.1;
+}
+
+.store-subtitle {
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+    margin-bottom: 2px;
+}
+
+.store-title {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Google Play Store Button */
+.google-play {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+.google-play:hover {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    color: #ffffff;
+    border-color: var(--clr-primary);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.google-play .store-icon {
+    color: #ffffff;
+}
+
+/* App Store Button */
+.app-store {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+.app-store:hover {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    color: #ffffff;
+    border-color: var(--clr-primary);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.app-store .store-icon {
+    color: #ffffff;
+}
+
+/* Light mode adjustments for store buttons */
+[data-theme="light"] .google-play,
+[data-theme="light"] .app-store {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+[data-theme="light"] .google-play:hover,
+[data-theme="light"] .app-store:hover {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    border-color: var(--clr-primary);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+/* Responsive adjustments for store buttons */
+@media (max-width: 768px) {
+    .store-button {
+        min-width: 160px;
+        height: 55px;
+        padding: 10px 16px;
+    }
+    
+    .store-icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .store-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .store-subtitle {
+        font-size: 10px;
+    }
+    
+    .store-title {
+        font-size: 16px;
+    }
+}
+
+/* ------------------------------------------------------------------
    Layout Containers & Section Title
 ------------------------------------------------------------------ */
 .container { 
